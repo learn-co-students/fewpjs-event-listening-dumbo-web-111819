@@ -65,3 +65,12 @@ and move to the next lesson!
 [quirks]: http://www.quirksmode.org/js/events_order.html
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/fewpjs-event-listening'>Interacting with the DOM via JavaScript Event Listeners</a> on Learn.co and start learning to code for free.</p>
+
+
+
+function addingEventListener() {
+    const input = document.getElementById('input');
+input.addEventListener('click', function(event) {
+  alert('I was clicked!');
+});
+}
